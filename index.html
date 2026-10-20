@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FPLytics provides Fantasy Premier League tips, statistics, player analysis and data-driven strategies.">
+  <meta name="theme-color" content="#07111f">
+  <title>FPLytics | Play smart, not blind.</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #07111f;
+      color: #f4f7fb;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 24px 7%;
+      border-bottom: 1px solid #1d2b3d;
+    }
+    .logo {
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: -1px;
+    }
+    .logo span { color: #35e69a; }
+    nav { display: flex; gap: 24px; }
+    nav a {
+      color: #c5d0de;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    nav a:hover { color: #35e69a; }
+    .hero {
+      max-width: 1100px;
+      margin: auto;
+      padding: 115px 24px 100px;
+      text-align: center;
+    }
+    .badge {
+      display: inline-block;
+      padding: 9px 15px;
+      border: 1px solid #246d55;
+      border-radius: 30px;
+      color: #35e69a;
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+    h1 {
+      margin: 28px 0 20px;
+      font-size: clamp(42px, 7vw, 76px);
+      line-height: 1.08;
+      letter-spacing: -3px;
+    }
+    h1 span { color: #35e69a; }
+    .subtitle {
+      max-width: 680px;
+      margin: 0 auto;
+      color: #aab8c9;
+      font-size: 18px;
+      line-height: 1.8;
+    }
+    .buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 35px;
+    }
+    .button {
+      display: inline-block;
+      padding: 15px 23px;
+      border-radius: 8px;
+      background: #35e69a;
+      color: #07111f;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .button.secondary {
+      background: transparent;
+      border: 1px solid #34445a;
+      color: #f4f7fb;
+    }
+    .features {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 24px 90px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    .card {
+      padding: 28px;
+      background: #0d1a2b;
+      border: 1px solid #1d2b3d;
+      border-radius: 14px;
+    }
+    .icon { font-size: 30px; }
+    .card h2 { font-size: 20px; }
+    .card p {
+      color: #aab8c9;
+      line-height: 1.7;
+      font-size: 14px;
+    }
+    footer {
+      padding: 28px 20px;
+      border-top: 1px solid #1d2b3d;
+      text-align: center;
+      color: #8291a5;
+      font-size: 13px;
+    }
+    @media (max-width: 700px) {
+      header { padding: 20px; }
+      nav { gap: 12px; }
+      nav a { font-size: 12px; }
+      .logo { font-size: 23px; }
+      .hero { padding-top: 80px; }
+      h1 { letter-spacing: -1.5px; }
+      .features { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 420px) {
+      nav a:nth-child(2) { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">FPL<span>ytics</span></div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#analysis">Analysis</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="badge">FANTASY PREMIER LEAGUE ANALYTICS</div>
+      <h1>Play smart,<br><span>not blind.</span></h1>
+      <p class="subtitle">
+        Make smarter Fantasy Premier League decisions with data-driven
+        insights, player statistics and strategic recommendations.
+        Get ahead of the competition, one Gameweek at a time.
+      </p>
+      <div class="buttons">
+        <a class="button" href="#analysis">Explore Our Analysis</a>
+        <a class="button secondary" href="#about">Discover FPLytics</a>
+      </div>
+    </section>
+
+```
+<section class="features" id="analysis">
+  <article class="card">
+    <div class="icon">📈</div>
+    <h2>Transfer Analysis</h2>
+    <p>Identify potential transfers in and out using data-driven player analysis and strategic insights.</p>
+  </article>
+  <article class="card">
+    <div class="icon">💎</div>
+    <h2>Differential Picks</h2>
+    <p>Discover overlooked players who could give your Fantasy team a competitive advantage.</p>
+  </article>
+  <article class="card">
+    <div class="icon">©</div>
+    <h2>Captain Picks</h2>
+    <p>Compare the leading captain candidates and make informed decisions before every Gameweek.</p>
+  </article>
+</section>
+
+<section class="hero" id="about" style="padding-top:0">
+  <h2>Smarter decisions. Better strategy.</h2>
+  <p class="subtitle">
+    FPLytics turns Fantasy Premier League data into clear,
+    practical insights to help managers plan their next move.
+  </p>
+</section>
+```
+
+  </main>
+
+  <footer>
+    © 2026 FPLytics. Play smart, not blind.
+    <br><br>
+    An independent Fantasy Premier League analysis project.
+    Not affiliated with or endorsed by the Premier League.
+  </footer>
+</body>
+</html>
